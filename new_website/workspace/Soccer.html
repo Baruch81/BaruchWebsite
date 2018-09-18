@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Baruchs First Website </title>
+    </head>
+    <body>
+The first website that i am going to make
+    </body>
+</html><!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: #111;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: blue;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+    float: left;
+    width: 25%;
+    height: 300px; /* only for demonstration, should be removed */
+    background: #ccc;
+    padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: #f1f1f1;
+    height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer {
+    background-color: #111;
+    padding: 10px;
+    text-align: center;
+    color: blue;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 400px) {
+    nav, article {
+        width: 90%;
+        height: auto;
+    }
+}
+</style>
+</head>
+<body>
+
+<h2>Best Website Ever</h2>
+<p>The sports that i like and will be doing and the reason i like those sports </p>
+<p></p>
+
+<header>
+  <h2>Soccer</h2>
+</header> 
+
+<section> 
+  <nav>
+    <ul>
+      <li><a href="Football.html">Football</a></li>
+      <li><a href="#">Soccer</a></li>
+      <li><a href="Track&field.html">Track and Field</a></li>
+      <li><a href="Homepage.html">Home</a></li>
+
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Soccer</h1>
+    <p>Soccer is a fast pased sport that requirs a person to be in top conditions while running up and down the feild</p>
+    <p>I started playing sports when i was a little kid the first sport i played was soccer in los angles, where my dad own his team. Soccer is a sport that runs through the family  </p>
+  </article>
+    <h1> </h1>
+</section>
+
+<footer>
+  <p></p>
+</footer>
+
+</body>
+</html>
